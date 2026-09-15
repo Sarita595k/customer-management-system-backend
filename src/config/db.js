@@ -1,6 +1,7 @@
 import mongoose from "mongoose"
-// created a function to connect to the db and as well as 
+// created a function to connect to the db and as well as
 // export the function to call it in the main index.js file
+
 export const connectToDb = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_URL)
