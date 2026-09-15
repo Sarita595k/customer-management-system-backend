@@ -10,7 +10,7 @@ const app = express()
 
 // allowing cors origin 
 app.use(cors({
-    origin: "http://localhost:5173", // default Vite dev port
+    origin: "http://localhost:5173", // default Vite port
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 })
